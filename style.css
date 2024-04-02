@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+button {
+    padding: 10px 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: aqua;
+    box-shadow:0 0 10px 1px rgb(141, 236, 236) ;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
